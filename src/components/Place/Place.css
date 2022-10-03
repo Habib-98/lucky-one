@@ -1,0 +1,63 @@
+.place {
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.place img {
+  width: 285px;
+  height: 285px;
+  margin: 8px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.place h2 {
+  margin-top: 0px;
+}
+
+.booking-btn::before {
+  content: "";
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background: saddlebrown;
+  border-radius: 3px;
+  z-index: -1;
+  transition: 0.7s;
+}
+
+.booking-btn {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0px 10px;
+  margin: 15px auto;
+  background: green;
+  border: none;
+  border-radius: 3px;
+  z-index: 1;
+  transition: 0.7s;
+}
+
+.booking-btn:hover::before {
+  width: 100%;
+  transition: 0.7s;
+}
+
+.btn-text {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.booking-btn:hover {
+  background: saddlebrown;
+  color: white;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .place {
+    width: 300px;
+  }
+}

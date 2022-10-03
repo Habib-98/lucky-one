@@ -1,0 +1,35 @@
+.selected-btn {
+    display: grid;
+    grid-template-rows: 2;
+    width: 75%;
+    margin: left;
+    row-gap: 15px;
+    position: sticky;
+    top: 0;
+}
+
+.choose {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: blueviolet;
+    background-color: blanchedalmond;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+}
+
+.choose2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: slategrey;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+}
